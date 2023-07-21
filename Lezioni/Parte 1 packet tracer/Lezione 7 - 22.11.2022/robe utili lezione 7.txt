@@ -1,0 +1,17 @@
+Apparato 111.162.136.87	/12
+	base 		111.160.0.0
+	netmask		255.240.0.0
+	broadcast	111.175.255.255
+	range indirizzi 111.175.255.255
+
+Apparato 206.191.1.207	/25
+	base 		206.191.1
+	netmask		255.240.0.0
+	broadcast	111.175.255.255
+	range indirizzi 111.175.255.255
+
+Apparato 57.47.77.159	/11
+	base		57.32.0.0
+	netmask		255.224.0.0
+	broadcast	57.63.255.255
+	range indirizzi 57.32.0.1 - 57.63.255.254

@@ -1,0 +1,27 @@
+Internet
+88.176.0.0/12
+
+RINT 88.176.0.1
+RRT  88.176.0.2
+
+INTERNA
+146.48.96.00/23
+
+SP   25 Pc 	/27	96-127
+
+UI	Vlan
+-IMD 58 Pc	/26	128-191
+-IoT 28	Pc	/27	64-95
+
+SI	Vlan
+-PEW 12 Pc	/28	32-47
+-BDB 9  Pc	/28	48-63
+
+RT	Vlan
+-NM 6	Pc	/28	00-15
+-VS 4	Pc	/28	16-31
+
+Controllo tra router
+RT-SI		/30	0-3
+SI-UI		/30	4-7
+SI-SP		/30	8-11

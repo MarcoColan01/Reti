@@ -1,0 +1,6 @@
+configurare VLAN
+	aprire uno switch
+	andare su config > VLAN database
+	mettere un numero e un nome alla VLAN e aggiungere nel nome il numero VLAN
+	configurare poi ogni interfaccia dello switch in modo che passino solo i frame
+	provenienti dalla VLAN corretta

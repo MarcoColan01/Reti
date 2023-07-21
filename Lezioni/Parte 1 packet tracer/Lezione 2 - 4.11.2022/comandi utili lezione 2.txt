@@ -1,0 +1,15 @@
+all'inizio, andare su options > preferences > miscellaneous e impostare:
+	auto file backup interval OFF
+	simulation - buffer full action AUTO CLEAR EVENT LIST
+
+il bridge può collegare solo due apparati
+cavi cross tra apparati di funzionalità uguale
+cavi flat tra apparati anche con funzionalità diverse
+NON USARE LA SAETTA PER CONFIGURARE IN AUTOMATICO LE CONNESSIONI: stabilire le connessioni manualmente
+preferenza: apparati PT di packet tracer
+collegamento bridge-bridge o bridge-switch: all'inizio la connessione è rossa, dopo poco diventa verde. 
+modalità simulation: premendo la freccia a destra il tempo va avanti di un evento, con quella a sinistra si torna indietro col tempo di un evento.
+
+router e hub non possono essere collegati direttamente perchè il router pretende che, tra i dispositivi a lui connessi, vi siano reti diverse. Per sistemare: cliccare sul router, andare in config > interfaccia interessata e accendere l'interfaccia
+
+indirizzi oggetti lv 3

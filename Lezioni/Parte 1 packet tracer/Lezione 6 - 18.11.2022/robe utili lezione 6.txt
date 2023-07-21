@@ -1,0 +1,28 @@
+127.128.129.192 
+in binario diventa: 01111111.10000000.10000001.11000000
+
+20.148.67.123
+in binario diventa: 00010100.10010100.01000011.01111011
+
+218.160.179.60 
+in binario diventa: 11011010.10100000.10110011.00111100
+
+
+dato un indirizzo IP, capire di che classe è ricordando che 
+	classe A: primo bit = 0
+	classe B: primi due bit = 10
+	classe C: primi tre bit = 110 
+
+15.0.0.0 -> classe A
+	broadcast: 15.255.255.255
+	netmask: 255.0.0.0
+	primo indirizzo: 15.0.0.1
+	ultimo address: 15.255.255.254
+
+137.149.0.0 -> classe B
+	broadcast: 137.149.255.255
+	netmask: 255.255.0.0
+	primo indirizzo: 137.149.0.1
+	ultimo address: 137.149.255.254
+
+

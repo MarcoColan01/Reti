@@ -1,0 +1,6 @@
+default gateway deve fare parte della stessa rete dell'indirizzo ip
+va configurato sia sul device che sul router
+vuole vedere router connessi a switch che connettono i dispositivi di una sottorete
+visualizzare ARP TABLE router: icona lente ingrandimento, fare clic sul router
+
+simbolo fiamma: sequenza di jam
